@@ -1,2 +1,1 @@
-# staticfiles
- 
+This project aims to provide a comprehensive dashboard solution for data visualization and analysis. It offers a user-friendly interface with intuitive navigation and interactive charts, enabling users to gain insights from complex datasets effortlessly.
