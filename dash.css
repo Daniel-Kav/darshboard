@@ -1,0 +1,20 @@
+html,
+body {
+  height: 100%; /* Ensure the HTML and body elements take up the full viewport height */
+  margin: 0;
+}
+
+.dashboard{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap:.5rem;
+    padding-top: 10px;
+    margin-bottom: -24px; /* negative value of the footer height */
+    display: grid;
+    grid-template-rows: 1fr auto; /* The first row spans 100% of the available vertical space */
+    min-height: 100%; /* Ensure the grid container takes up at least the full viewport height */
+  
+}
+.sidebar{
+    background:#4d6696 ;
+}
