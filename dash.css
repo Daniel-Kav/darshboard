@@ -18,3 +18,14 @@ body {
 .sidebar{
     background:#4d6696 ;
 }
+.mainpage{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr 4fr;
+}
+.content{
+    background-color: aquamarine;
+}
+.navbar{
+    background-attachment: red;
+}
