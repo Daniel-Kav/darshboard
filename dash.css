@@ -31,3 +31,14 @@
     padding: 20px;
     border-radius: 5px;
 }
+.homepage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    grid-template-rows: auto;
+}
+.project{
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+}
