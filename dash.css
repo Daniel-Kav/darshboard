@@ -3,11 +3,10 @@
     grid-template-columns: 1fr 4fr;
     grid-template-rows: auto;
     min-height: 100vh;
-    grid-gap: 20px;
+    grid-gap: 10px;
 }
 .card1{
     background-color: #f2f2f2;
-    padding: 20px;
     border-radius: 5px;
 }
 .card2{
@@ -28,7 +27,7 @@
 }
 .homepage{
     background-color: orange;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
 }
 .homepage{
@@ -42,6 +41,20 @@
     padding: 10px;
     border-radius: 10px;
 }
-.projects{
+.projects,.trends{
+    background-color: #f20707;
+    border-radius: 5px;
 
+}
+.project{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+.trend{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    gap: 20px;
 }
