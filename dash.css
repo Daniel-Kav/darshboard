@@ -11,9 +11,9 @@
 }
 .card2{
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 4px;
     border-radius: 5px;
-    grid-gap: 20px;
+    grid-gap: 5px;
 }
 .card2{
     display: grid;
