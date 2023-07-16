@@ -1,3 +1,6 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .dashboard {
     display: grid;
     grid-template-columns: 1fr 5fr;
