@@ -1,6 +1,6 @@
 .dashboard {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-rows: auto;
     min-height: 100vh;
     grid-gap: 10px;
