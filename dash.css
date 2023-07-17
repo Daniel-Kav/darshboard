@@ -92,3 +92,11 @@ body{
     height: 15px;
     padding : 20px;
 }
+.search input{
+    border-radius: 10px;
+    width: 50%;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
