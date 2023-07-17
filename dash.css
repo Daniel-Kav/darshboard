@@ -100,3 +100,9 @@ body{
     display: flex;
     align-items: center;
 }
+.rounded-image{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: #3467af;
+}
