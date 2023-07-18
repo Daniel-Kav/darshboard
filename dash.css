@@ -105,3 +105,11 @@ body{
     width: 30px;
     border: #3467af;
 }
+.profile button{
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: #3467af;
+    text-decoration-color: #f2f2f2;
+}
