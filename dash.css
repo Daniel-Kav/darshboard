@@ -87,7 +87,7 @@ body{
     fill: rgb(245, 248, 249); /* Change the fill color */
     stroke: rgb(254, 255, 255);
 }
-.search svg{
+.search svg,.profile svg{
     width: 26px;
     height: 25px;
     padding : 20px;
@@ -96,13 +96,12 @@ body{
     border-radius: 10px;
     width: 50%;
 }
-.search{
+.search,.profile{
     display: flex;
     align-items: center;
 }
 .rounded-image{
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 30px;
+    width: 30px;
     border: #3467af;
 }
