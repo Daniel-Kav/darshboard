@@ -1,3 +1,16 @@
+:root {
+    --dark-text:rgb(65, 69, 81);
+    --light-text:rgb(130, 132, 144);
+    --hover-link: rgb(45, 109, 212);
+    --background-col: rgb(246 247 251);
+   }
+   
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+   }
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -36,7 +49,7 @@ body{
 }
 .homepage{
     display: grid;
-    grid-template-columns: 0fr 3fr 1fr ;
+    grid-template-columns:  3fr 1fr ;
     gap: 20px;
     grid-template-rows: auto;
 }
@@ -110,4 +123,8 @@ body{
     background-color: #3582ef;
     color: #f2f2f2;
     font-size: 16px;
+}
+.project div{
+    display: flex;
+    align-items: center;
 }
