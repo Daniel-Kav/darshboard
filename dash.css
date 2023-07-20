@@ -43,23 +43,24 @@ body{
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 .homepage{
-    background-color: orange;
-    padding: 10px;
+    background-color: whitesmoke;
+    padding-top: 5px;
+    padding-right: 5px;
     border-radius: 5px;
 }
 .homepage{
     display: grid;
     grid-template-columns:  3fr 1fr ;
-    gap: 20px;
+    gap: 10px;
     grid-template-rows: auto;
 }
 .project{
-    background-color: aquamarine;
+    background-color: whitesmoke;
     padding: 10px;
     border-radius: 10px;
 }
 .projects,.trends{
-    background-color: #c4b8b8;
+    background-color: #ffffff;
     border-radius: 5px;
 
 }
@@ -125,6 +126,5 @@ body{
     font-size: 16px;
 }
 .project div{
-    display: flex;
-    align-items: center;
+   padding: 10px;
 }
