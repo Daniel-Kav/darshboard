@@ -62,7 +62,7 @@ body{
 .projects,.trends{
     background-color: #ffffff;
     border-radius: 5px;
-
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 .project{
     display: grid;
@@ -73,7 +73,7 @@ body{
 .trend{
     display: grid;
     grid-template-columns: 1fr ;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-rows: 1fr;
     gap: 20px;
 }
 .icon1 svg{
@@ -127,4 +127,14 @@ body{
 }
 .project div{
    padding: 10px;
+}
+.trends h3{
+    padding: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(40, 38, 38);
+}
+.anouncement{
+    padding: 10px;
+    font-size: 12px;
+    text-decoration: underline;
 }
