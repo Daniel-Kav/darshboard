@@ -136,5 +136,7 @@ body{
 .anouncement{
     padding: 10px;
     font-size: 12px;
+}
+.anouncement h4{
     text-decoration: underline;
 }
