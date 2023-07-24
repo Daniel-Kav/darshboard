@@ -149,7 +149,11 @@ body{
     object-fit: cover;
 }
 .trending-image{
-    padding: 12px;
+    margin-right: 10px;
     display: flex;
     align-items: flex-start;
+}
+.trending-image{
+    font-size: 14px;
+    padding: 10px;
 }
