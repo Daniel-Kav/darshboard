@@ -142,3 +142,13 @@ body{
 .anouncement h4{
     text-decoration: underline;
 }
+.trend-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.trending-image{
+    display: flex;
+    align-items: center;
+}
